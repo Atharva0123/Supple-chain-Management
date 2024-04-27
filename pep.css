@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ff0000;
+  }
+  
+  .distributor-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .distributor-name {
+    color: #1900ff;
+    margin-bottom: 20px;
+  }
+  
+  .metrics {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .metric {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .metric:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metric h3 {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .quantity {
+    font-size: 24px;
+    color: #333;
+  }
+  
